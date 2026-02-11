@@ -1,0 +1,140 @@
+{
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [80],
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": "off"
+  },
+  "C_Cpp.updateChannel": "Insiders",
+  "gitlens.advanced.messages": {
+    "suppressGitMissingWarning": true
+  },
+  "enableTelemetry": false,
+  "dart.openDevTools": "flutter",
+  "dart.debugSdkLibraries": true,
+  "files.associations": {
+    "*.dart": "dart"
+  },
+  "workbench.startupEditor": "none",
+  "redhat.telemetry.enabled": true,
+  "bracketPairColorizer.depreciation-notice": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "git.autofetch": true,
+  "bracket-pair-colorizer-2.depreciation-notice": false,
+  "workbench.editorAssociations": {
+    "*.txt": "default",
+    "*.xlsx": "default"
+  },
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "terminal.integrated.automationProfile.linux": "zsh",
+  "terminal.integrated.defaultProfile.osx": "",
+  "terminal.integrated.profiles.linux": {
+    "bash": {
+      "path": "bash",
+      "icon": "terminal-bash"
+    },
+    "zsh": {
+      "path": "zsh"
+    },
+    "fish": {
+      "path": "/usr/bin/fish"
+    },
+    "tmux": {
+      "path": "tmux",
+      "icon": "terminal-tmux"
+    },
+    "pwsh": {
+      "path": "pwsh",
+      "icon": "terminal-powershell"
+    }
+  },
+  "[xslt]": {
+    "editor.semanticHighlighting.enabled": true
+  },
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "js/ts.implicitProjectConfig.strictFunctionTypes": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
+  },
+  "vscord.app.name": "Visual Studio Code",
+  "vscord.app.privacyMode.enable": true,
+  "vscord.status.idle.check": false,
+  "vscord.status.idle.enabled": false,
+  "vscord.status.problems.enabled": false,
+  "vscord.status.details.enabled": false,
+  "vscord.status.details.idle.enabled": false,
+  "vscord.status.state.enabled": false,
+  "vscord.status.state.idle.enabled": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "editor.inlineSuggest.enabled": true,
+  "cSpell.userWords": ["bodyparser", "cupertino", "dartz", "riverpod", "vsync"],
+  "workbench.settings.applyToAllProfiles": ["editor.fontSize"],
+  "prisma.showPrismaDataPlatformNotification": false,
+  "git.openRepositoryInParentFolders": "never",
+  "files.autoSave": "afterDelay",
+  "editor.formatOnSave": true,
+  "discord.detailsDebugging": "Debugging",
+  "discord.detailsEditing": "Editing",
+  "discord.lowerDetailsDebugging": "Debugging",
+  "discord.lowerDetailsEditing": "Workspace",
+  "discord.smallImage": "<3",
+  "gitlens.ai.model": "vscode",
+  "gitlens.ai.vscode.model": "copilot:gpt-4.1",
+  "dart.runPubGetOnPubspecChanges": "never",
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "geminicodeassist.project": "nomadic-quota-np35s",
+  "dart.flutterSdkPath": "/home/alberto/sdks/flutter",
+  "diffEditor.codeLens": true,
+  "geminicodeassist.inlineSuggestions.enableAuto": true,
+  "editor.minimap.enabled": false,
+  "extensions.experimental.affinity": {
+    "asvetliakov.vscode-neovim": 1
+  },
+  "workbench.sideBar.location": "right",
+  "keyboard.dispatch": "keyCode",
+  "screencastMode.keyboardOptions": {
+    "showKeys": false
+  },
+  "editor.lineNumbers": "relative",
+  "workbench.colorCustomizations": {
+    // "editor.background": "#000000",
+    // "sideBar.background": "#000000",
+    // "activityBar.background": "#000000",
+    // "panel.background": "#000000",
+    // "terminal.background": "#000000",
+    // "tab.activeBackground": "#000000",
+    // "titleBar.activeBackground": "#000000",
+    "editor.findMatchBackground": "#ff00ff88",
+    "editor.findMatchHighlightBackground": "#ff00ff44"
+  },
+  "editor.fontSize": 16,
+  "discord.removeRemoteRepository": true,
+  "discord.removeDetails": true,
+  "leetcode.workspaceFolder": "/home/alberto/projects/leetcode",
+  "leetcode.filePath": {
+    "default": {
+      "folder": "${difficulty}",
+      "filename": "${id}.${kebab-case-name}.${ext}"
+    }
+  },
+  "leetcode.problems.sortStrategy": "None",
+  "leetcode.showDescription": "Both",
+  "editor.inlineSuggest.edits.allowCodeShifting": "horizontal",
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "github.copilot.chat.virtualTools.threshold": 0,
+  "vscode-neovim.neovimInitVimPaths.linux": "/home/alberto/dotfiles/.config/nvim/init.lua",
+  "editor.formatOnPaste": true,
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "extensions.ignoreRecommendations": true,
+  "window.menuBarVisibility": "compact",
+  "workbench.editor.showTabs": "single",
+  "workbench.colorTheme": "Catppuccin Dark Pro",
+  "chat.viewSessions.orientation": "stacked"
+}
