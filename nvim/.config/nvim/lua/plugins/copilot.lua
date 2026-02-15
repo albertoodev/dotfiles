@@ -31,13 +31,36 @@ return {
     },
     build = "make tiktoken",
     opts = {
+      agent = true,
       temperature = 0.1,
+      context = "buffers+files+diagnostics",
       window = {
         layout = "vertical",
         width = 0.4,
+        relative = "editor",
       },
 
       prompts = {
+        Explain = {
+          prompt = "> /COPILOT_EXPLAIN\n Explain the selected code",
+          description = "Explain the selected code",
+        },
+        Review = {
+          prompt = "> /COPILOT_REVIEW\n Review the selected code for issues and improvements",
+          description = "Code review",
+        },
+        Fix = {
+          prompt = "> /COPILOT_FIX\n Fix the issues in the selected code",
+          description = "Fix issues",
+        },
+        Optimize = {
+          prompt = "> /COPILOT_OPTIMIZE\n Optimize the selected code for performance",
+          description = "Optimize code",
+        },
+        Docs = {
+          prompt = "> /COPILOT_DOCS\n Add documentation to the selected code",
+          description = "Add documentation",
+        },
         Plan = {
           prompt = "/COPILOT_GENERATE \n> # Plan\n> Create a detailed step-by-step plan to implement the requested feature. Do not write code yet, just the plan.",
           description = "Agent: Plan Mode",
