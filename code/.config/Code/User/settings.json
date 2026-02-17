@@ -7,17 +7,17 @@
     "editor.suggest.snippetsPreventQuickSuggestions": false,
     "editor.suggestSelection": "first",
     "editor.tabCompletion": "onlySnippets",
-    "editor.wordBasedSuggestions": "off"
+    "editor.wordBasedSuggestions": "off",
   },
   "C_Cpp.updateChannel": "Insiders",
   "gitlens.advanced.messages": {
-    "suppressGitMissingWarning": true
+    "suppressGitMissingWarning": true,
   },
   "enableTelemetry": false,
   "dart.openDevTools": "flutter",
   "dart.debugSdkLibraries": true,
   "files.associations": {
-    "*.dart": "dart"
+    "*.dart": "dart",
   },
   "workbench.startupEditor": "none",
   "redhat.telemetry.enabled": true,
@@ -28,7 +28,7 @@
   "bracket-pair-colorizer-2.depreciation-notice": false,
   "workbench.editorAssociations": {
     "*.txt": "default",
-    "*.xlsx": "default"
+    "*.xlsx": "default",
   },
   "git.confirmSync": false,
   "git.enableSmartCommit": true,
@@ -37,31 +37,31 @@
   "terminal.integrated.profiles.linux": {
     "bash": {
       "path": "bash",
-      "icon": "terminal-bash"
+      "icon": "terminal-bash",
     },
     "zsh": {
-      "path": "zsh"
+      "path": "zsh",
     },
     "fish": {
-      "path": "/usr/bin/fish"
+      "path": "/usr/bin/fish",
     },
     "tmux": {
       "path": "tmux",
-      "icon": "terminal-tmux"
+      "icon": "terminal-tmux",
     },
     "pwsh": {
       "path": "pwsh",
-      "icon": "terminal-powershell"
-    }
+      "icon": "terminal-powershell",
+    },
   },
   "[xslt]": {
-    "editor.semanticHighlighting.enabled": true
+    "editor.semanticHighlighting.enabled": true,
   },
   "terminal.integrated.defaultProfile.linux": "zsh",
   "js/ts.implicitProjectConfig.strictFunctionTypes": false,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "[prisma]": {
-    "editor.defaultFormatter": "Prisma.prisma"
+    "editor.defaultFormatter": "Prisma.prisma",
   },
   "vscord.app.name": "Visual Studio Code",
   "vscord.app.privacyMode.enable": true,
@@ -95,12 +95,12 @@
   "geminicodeassist.inlineSuggestions.enableAuto": true,
   "editor.minimap.enabled": false,
   "extensions.experimental.affinity": {
-    "asvetliakov.vscode-neovim": 1
+    "asvetliakov.vscode-neovim": 1,
   },
   "workbench.sideBar.location": "right",
   "keyboard.dispatch": "keyCode",
   "screencastMode.keyboardOptions": {
-    "showKeys": false
+    "showKeys": false,
   },
   "editor.lineNumbers": "relative",
   "workbench.colorCustomizations": {
@@ -112,7 +112,7 @@
     // "tab.activeBackground": "#000000",
     // "titleBar.activeBackground": "#000000",
     "editor.findMatchBackground": "#ff00ff88",
-    "editor.findMatchHighlightBackground": "#ff00ff44"
+    "editor.findMatchHighlightBackground": "#ff00ff44",
   },
   "editor.fontSize": 16,
   "discord.removeRemoteRepository": true,
@@ -121,8 +121,8 @@
   "leetcode.filePath": {
     "default": {
       "folder": "${difficulty}",
-      "filename": "${id}.${kebab-case-name}.${ext}"
-    }
+      "filename": "${id}.${kebab-case-name}.${ext}",
+    },
   },
   "leetcode.problems.sortStrategy": "None",
   "leetcode.showDescription": "Both",
@@ -136,5 +136,7 @@
   "window.menuBarVisibility": "compact",
   "workbench.editor.showTabs": "single",
   "workbench.colorTheme": "Catppuccin Dark Pro",
-  "chat.viewSessions.orientation": "stacked"
+  "chat.viewSessions.orientation": "stacked",
+  "editor.fontFamily": "'Fira Code','Droid Sans Mono', monospace",
+  "editor.fontLigatures": true,
 }
