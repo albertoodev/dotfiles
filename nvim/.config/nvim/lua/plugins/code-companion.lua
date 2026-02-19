@@ -7,7 +7,16 @@ return {
   },
   opts = {
     strategies = {
-      chat = { adapter = "copilot" },
+      chat = {
+        adapter = "copilot",
+        slash_command = {
+          ["project"] = {
+            opts = {
+              contains_code = true,
+            },
+          },
+        },
+      },
       inline = { adapter = "copilot" },
       agent = { adapter = "copilot" },
     },
