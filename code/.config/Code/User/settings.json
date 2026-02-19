@@ -97,7 +97,6 @@
   "extensions.experimental.affinity": {
     "asvetliakov.vscode-neovim": 1,
   },
-  "workbench.sideBar.location": "right",
   "keyboard.dispatch": "keyCode",
   "screencastMode.keyboardOptions": {
     "showKeys": false,
@@ -136,7 +135,7 @@
   "window.menuBarVisibility": "compact",
   "workbench.editor.showTabs": "single",
   "workbench.colorTheme": "Catppuccin Dark Pro",
-  "chat.viewSessions.orientation": "stacked",
   "editor.fontFamily": "'Fira Code','Droid Sans Mono', monospace",
   "editor.fontLigatures": true,
+  "chat.viewSessions.orientation": "stacked",
 }

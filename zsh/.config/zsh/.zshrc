@@ -116,3 +116,6 @@ alias vim='nvim'
 alias open='xdg-open'
 
 vi() { command vim "$@"; }
+
+# vim mode in zsh 
+bindkey -v
