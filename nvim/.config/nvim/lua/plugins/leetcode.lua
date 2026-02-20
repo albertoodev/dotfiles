@@ -1,6 +1,6 @@
 return {
   "albertoodev/leetcode.nvim",
-  dir = "~/projects/leetcode.nvim",
+  dir = "~/leetcode.nvim",
   build = ":TSUpdate",
   dependencies = {
     "nvim-telescope/telescope.nvim",
