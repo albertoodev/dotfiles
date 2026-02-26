@@ -98,7 +98,7 @@ source $ZSH/oh-my-zsh.sh
 
 export PATH="$HOME/.local/bin:$PATH"
 export PATH="$HOME/sdks/flutter/bin:$PATH"
-
+export PATH="$HOME/sdks/go/bin:$PATH"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
@@ -126,7 +126,7 @@ export PATH="$HOME/sdks/flutter/bin:$PATH"
 alias vim='nvim'
 alias open='xdg-open'
 
-vi() { command vim "$@"; }
+alias vi='/usr/bin/vim'
 
 # vim mode in zsh 
 bindkey -v
