@@ -8,9 +8,9 @@ vim.filetype.add({
   },
 })
 
--- -- Main window transparency
--- vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
--- vim.api.nvim_set_hl(0, "NormalNC", { bg = "none" })
---
--- -- Floating window transparency (VimBeGood, Telescope, etc.)
--- vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })
+-- Main window transparency
+vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
+vim.api.nvim_set_hl(0, "NormalNC", { bg = "none" })
+
+-- Floating window transparency (VimBeGood, Telescope, etc.)
+vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })

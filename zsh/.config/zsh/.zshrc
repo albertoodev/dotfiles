@@ -98,7 +98,11 @@ source $ZSH/oh-my-zsh.sh
 
 export PATH="$HOME/.local/bin:$PATH"
 export PATH="$HOME/sdks/flutter/bin:$PATH"
-export PATH="$HOME/sdks/go/bin:$PATH"
+# Go
+export GoPATH=$HOME/go
+export PATH="$GoPATH/bin:$PATH"
+export GOROOT=$HOME/.local/opt/go-v1.26.0
+export PATH=$GOROOT/bin:$PATH
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
