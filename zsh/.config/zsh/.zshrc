@@ -132,6 +132,8 @@ alias open='xdg-open'
 
 alias vi='/usr/bin/vim'
 
+alias kick="NVIM_APPNAME=kickstart nvim"
+
 # vim mode in zsh 
 bindkey -v
 
