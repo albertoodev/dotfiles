@@ -1,12 +1,6 @@
 return {
   "nvim-lualine/lualine.nvim",
   opts = function(_, opts)
-    local function setup_hl()
-      vim.api.nvim_set_hl(0, "LualineTmuxActive", { bg = "#cba6f7", fg = "#1e1e2e", bold = true })
-    end
-    setup_hl()
-    vim.api.nvim_create_autocmd("ColorScheme", { callback = setup_hl })
-
     local mode_to_lualine = {
       n = "normal",
       i = "insert",
@@ -44,7 +38,8 @@ return {
       for i = first, last do
         local w = all[i]
         if w.active then
-          table.insert(parts, "%#LualineTmuxActive# " .. w.idx .. " " .. w.name .. " " .. reset)
+          local active_hl = "%#lualine_a_" .. mode .. "#"
+          table.insert(parts, active_hl .. " " .. w.idx .. " " .. w.name .. " " .. reset)
         else
           table.insert(parts, w.idx .. " " .. w.name)
         end
