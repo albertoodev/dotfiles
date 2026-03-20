@@ -7,6 +7,9 @@ vim.opt.digraph = false
 --  Split
 map("n", "<leader>v", "<cmd>split<cr>", { desc = "Split Right" })
 map("n", "<leader>h", "<cmd>vsplit<cr>", { desc = "Split Down" })
+-- Save
+map("n", "<leader>fs", "<cmd>w<cr>", { desc = "Save File" })
+map("n", "<leader>fS", "<cmd>wa<cr>", { desc = "Save All Files" })
 -- Switch buffers
 map("n", "<leader><tab>", "<cmd>e #<cr>", { desc = "Switch to Other Buffer" })
 
