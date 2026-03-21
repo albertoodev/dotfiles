@@ -134,6 +134,17 @@ setup_tmux_tpm() {
   fi
 }
 
+setup_p10k() {
+  local p10k_dir="$HOME/.config/zsh/.oh-my-zsh/custom/themes/powerlevel10k"
+  if [[ ! -d "$p10k_dir" ]]; then
+    info "Installing Powerlevel10k..."
+    git clone --depth=1 https://github.com/romkatv/powerlevel10k.git "$p10k_dir"
+    success "Powerlevel10k installed."
+  else
+    success "Powerlevel10k already installed."
+  fi
+}
+
 # main
 
 main() {
@@ -147,6 +158,7 @@ main() {
   stow_dotfiles
   echo ""
   setup_oh_my_zsh
+  setup_p10k
   setup_zsh_default
   setup_tmux_tpm
 
