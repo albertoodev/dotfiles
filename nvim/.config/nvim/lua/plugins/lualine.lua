@@ -51,5 +51,9 @@ return {
     end
 
     table.insert(opts.sections.lualine_x, 1, tmux_windows)
+
+    opts.sections.lualine_c = {
+      { "filename", path = 3 },
+    }
   end,
 }

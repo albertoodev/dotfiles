@@ -134,8 +134,9 @@ alias vi='/usr/bin/vim'
 
 alias kick="NVIM_APPNAME=kickstart nvim"
 
-# vim mode in zsh 
+# vim mode in zsh
 bindkey -v
+bindkey -s ^f "tmux-sessionizer\n"
 
 # To customize prompt, run `p10k configure` or edit ~/.config/zsh/.p10k.zsh.
 [[ ! -f ~/.config/zsh/.p10k.zsh ]] || source ~/.config/zsh/.p10k.zsh
